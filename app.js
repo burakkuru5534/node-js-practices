@@ -1,7 +1,8 @@
 
-var counter = require('./count')
+var stuff = require('./stuff')
 
-console.log(counter([1,2,3]));
+console.log(stuff.counter([1,2,3]));
+console.log(stuff.adder(4,6));
 
 /**
 
